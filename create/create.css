@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Bebas+Neue&display=swap');
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 20px;
+    font-family: 'Anybody', cursive;
+    font-size: 40px;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    font-family: 'Anybody', cursive;
+    font-size: 30px;
+}

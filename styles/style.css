@@ -32,11 +32,14 @@ header {
 
 header img {
     height: var(--header-height);
+    height: 100px;
+    width: 110px;
 }
 
 #signin {
     background-color: greenyellow;
     border: 0px;
+    font-size: 20px;
 }
 
 .sec-one {
@@ -50,6 +53,14 @@ header img {
     height: 675px;
     width: 1800px;
     box-shadow: var(--shadow);
+}
+
+#list {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .div-two {
