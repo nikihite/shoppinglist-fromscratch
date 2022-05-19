@@ -47,7 +47,7 @@ section {
 
 header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
@@ -73,7 +73,7 @@ header img {
 p {
     margin: var(--gutter);
 }
-  
+
 footer {
     position: fixed;
     width: 100%;
