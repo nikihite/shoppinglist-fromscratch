@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Bebas+Neue&display=swap');
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     /* --color1: hsla(349, 69%, 76%, 1);
@@ -17,8 +18,7 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
+font-family: 'Anybody', cursive;
 }
 
 main {
@@ -29,33 +29,12 @@ main {
     margin-bottom: calc(var(--footer-height));
 }
 
-section {
-    background-color: var(--color5);
-    width: 1000px;
-    max-width: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
-    margin-bottom: var(--gutter);
-    border: solid 2px var(--color1);
-}
-
 header {
     display: flex;
     justify-content: space-between;
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
-}
-
-
-h2 {
-    font-size: 1.8rem;
-    font-weight: bold;
 }
 
 .gutter-right {
@@ -128,4 +107,34 @@ footer {
 
 .auth-container button {
     margin: 10px;
+    font-size: 25px;
+}
+
+label, h3, p {
+    text-align: center;
+}
+
+input {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 30px;
+}
+
+p {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+.left {
+    margin-right: 50px;
 }
