@@ -71,6 +71,29 @@ header img {
     top: 1900px;
 }
 
+#stars {
+    position: absolute;
+    top: 2500px;
+    left: 500px;
+}
+
+#rating {
+    color:white;
+    font-size: 30px;
+    position: absolute;
+    left: 800px;
+    top: 2800px;
+}
+
+#review {
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+    position: absolute;
+    left: 675px;
+    top: 2950px;
+}
+
 #p-one {
     position: absolute;
     top: 250px;

@@ -19,3 +19,8 @@ button {
     font-family: 'Anybody', cursive;
     font-size: 30px;
 }
+
+h1, ul {
+    text-align: center;
+    margin-top: 40px;
+}
