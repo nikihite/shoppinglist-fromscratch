@@ -63,6 +63,14 @@ header img {
     left: 400px;
 }
 
+#clock {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: 400px;
+    top: 1900px;
+}
+
 #p-one {
     position: absolute;
     top: 250px;
@@ -70,10 +78,16 @@ header img {
     text-align: center;
 }
 
+#p-two {
+    position: absolute;
+    top: 1950px;
+    left: 450px;
+}
+
 .div-two {
     background-image: url('/assets/onphone.jpeg');
     height: 675px;
-    width: 1800px;
+    width: 2000px;
     box-shadow: var(--shadow);
 }
 
@@ -98,7 +112,8 @@ header img {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -107,4 +122,9 @@ h2 {
 
 h3 {
     font-size: 25px;;
+}
+
+ul {
+    font-size: 30px;
+    list-style-type: circle;
 }
