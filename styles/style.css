@@ -17,9 +17,6 @@ body {
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
-    
-    font-family: 'Titillium Web', sans-serif;
-    background-color: var(--color2);
 }
 
 header {
@@ -37,4 +34,44 @@ header img {
 #signin {
     background-color: greenyellow;
     border: 0px;
+}
+
+.sec-one {
+    background-color: greenyellow;
+    height: 175px;
+    width: 1800px;
+    box-shadow: var(--shadow);
+}
+
+.div-one {
+    height: 675px;
+    width: 1800px;
+    box-shadow: var(--shadow);
+}
+
+.div-two {
+    background-image: url('/assets/onphone.jpeg');
+    height: 675px;
+    width: 1800px;
+    box-shadow: var(--shadow);
+}
+
+.div-three {
+    background-color: greenyellow;
+    height: 175px;
+    width: 1800px;
+    box-shadow: var(--shadow);
+}
+
+.div-four {
+    height: 675px;
+    width: 1800px;
+    box-shadow: var(--shadow);
+}
+
+.div-five {
+    background-color: black;
+    height: 675px;
+    width: 1800px;
+    box-shadow: var(--shadow);
 }
