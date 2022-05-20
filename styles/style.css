@@ -130,8 +130,10 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: black;
     height: 800px;
+    width: 100%;
     box-shadow: var(--shadow);
 }
 
