@@ -50,26 +50,33 @@ header img {
     box-shadow: var(--shadow);
 }
 
-.div-one {
-    height: 675px;
-    width: 1800px;
+.sec-zero {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    align-items: center;
     box-shadow: var(--shadow);
+    justify-content: center;
 }
 
-#list {
-    height: 400px;
-    width: 400px;
-    position: absolute;
-    top: 200px;
-    left: 400px;
+#list-image {
+    height: 300px;
+    width: 300px;
+    /* position: absolute; */
+    /* top: 200px; */
+    /* left: 400px; */
+}
+
+#p-one {
+    /* position: absolute;
+    top: 250px;
+    right: 400px; */
+    text-align: center;
 }
 
 #clock {
-    position: absolute;
     height: 400px;
     width: 400px;
-    right: 400px;
-    top: 1900px;
 }
 
 #stars {
@@ -95,15 +102,7 @@ header img {
     top: 2950px;
 }
 
-#p-one {
-    position: absolute;
-    top: 250px;
-    right: 400px;
-    text-align: center;
-}
-
 #p-two {
-    position: absolute;
     top: 1950px;
     left: 450px;
 }
@@ -123,15 +122,19 @@ header img {
 }
 
 .div-four {
-    height: 675px;
-    width: 1800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: var(--shadow);
+    height: 600px;
 }
 
 .div-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
-    height: 675px;
-    width: 1800px;
+    height: 800px;
     box-shadow: var(--shadow);
 }
 

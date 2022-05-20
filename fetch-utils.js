@@ -73,3 +73,11 @@ export async function deleteAll() {
         .match({ user_id: getUser().id });
     return response.data;
 }
+
+export async function removeItem(id) {
+    const response = await client
+        .from('shopping_items')
+        .delete()
+        .eq('id', id);
+    return response.data;
+}

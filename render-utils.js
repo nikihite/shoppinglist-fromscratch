@@ -11,3 +11,4 @@ export function renderItem(item) {
     }
     return div;
 }
+
