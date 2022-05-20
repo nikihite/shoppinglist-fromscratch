@@ -1,4 +1,4 @@
-import { checkAuth, fetchListItems, createListItem, logout, togglePurchased } from '../fetch-utils.js';
+import { checkAuth, fetchListItems, createListItem, logout, togglePurchased, deleteAll } from '../fetch-utils.js';
 import { renderItem } from '../render-utils.js';
 
 checkAuth();
@@ -7,6 +7,7 @@ const form = document.querySelector('.item-form');
 const error = document.getElementById('error');
 const logoutButton = document.getElementById('logout');
 const shoppingListElem = document.getElementById('shopping-list');
+const deletebutton = document.getElementById('deletebtn');
 
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
@@ -40,3 +41,9 @@ async function displayListItems() {
 }
 
 displayListItems();
+
+deletebutton.addEventListener('click', async () => {
+    await deleteAll();
+
+    displayListItems();
+});

@@ -71,6 +71,7 @@ main {
 
 .item-sec {
     margin-left: 60px;
+    text-align: center;
 }
 
 h2 {
@@ -82,3 +83,4 @@ h2 {
 h1 {
     margin-bottom: 5px;
 }
+
