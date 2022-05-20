@@ -78,12 +78,6 @@ header img {
     width: 400px;
 }
 
-#stars {
-    position: absolute;
-    top: 2500px;
-    left: 500px;
-}
-
 #rating {
     color:white;
     font-size: 30px;
@@ -96,7 +90,6 @@ header img {
     color:white;
     font-size: 30px;
     font-style: italic;
-    position: absolute;
     left: 675px;
     top: 2950px;
 }
@@ -130,10 +123,8 @@ header img {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
     background-color: black;
     height: 800px;
-    width: 100%;
     box-shadow: var(--shadow);
 }
 
