@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Anybody&family=Bebas+Neue&display=swap');
+body {
+    background-image: url(/assets/checkout.jpeg);
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -18,9 +24,21 @@ input {
 button {
     font-family: 'Anybody', cursive;
     font-size: 30px;
+    border: 0px;
+    margin: 10px;
 }
 
 h1, ul {
     text-align: center;
     margin-top: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 225, 187, 0.587);
+    align-items: center;
+    height: 100vh;
+    width: 98vw;
 }

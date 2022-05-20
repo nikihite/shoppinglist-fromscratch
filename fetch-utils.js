@@ -59,15 +59,9 @@ export async function fetchListItems() {
 }
 
 export async function togglePurchased(item) {
-    console.log(item);
     const response = await client
         .from('shopping_items')
         .update({ purchased: !item.purchased })
         .match({ id: item.id });
-
-    if (response.error) {
-        console.error(response.error.message);
-    } else {
-        return response.data;
-    }
+    return response.data;
 }

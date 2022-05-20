@@ -23,7 +23,6 @@ logoutButton.addEventListener('click', () => {
     logout();
 });
 
-
 async function displayListItems() {
     shoppingListElem.textContent = '';
     const data = await fetchListItems();
