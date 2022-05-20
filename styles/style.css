@@ -46,7 +46,6 @@ header img {
 .sec-one {
     background-color: greenyellow;
     height: 175px;
-    width: 1800px;
     box-shadow: var(--shadow);
 }
 
@@ -110,14 +109,12 @@ header img {
 .div-two {
     background-image: url('/assets/onphone.jpeg');
     height: 675px;
-    width: 2000px;
     box-shadow: var(--shadow);
 }
 
 .div-three {
     background-color: greenyellow;
     height: 175px;
-    width: 1800px;
     box-shadow: var(--shadow);
 }
 
