@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/create/create.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="logout">Logout</button>
+    <main>
+        <p id="error"></p>
+        <div id="form-div">
+            <form class="item-form">
+                <label>Quantity:</label>
+                <input type="number" name="qty" min="0"/>
+                <label>Item:</label>
+                <input name="name"/>
+                <label>Price:</label>
+                <input name="price"/>
+                <button>Add Item</button>
+            </form>
+        <section class="item-sec">
+            <h1>My Shopping List</h1>
+            <h2>(click on items to cross them off the list)</h2>
+            <p id="error"></p>
+            <ul id="shopping-list"></ul>
+            <button id="deletebtn">Delete List</button>
+        </section>
+    </div>
+    <script src="./create.js" type="module"></script>
+</main>
+</body>
+</html>

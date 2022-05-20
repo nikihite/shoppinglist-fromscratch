@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Bebas+Neue&display=swap');
+body {
+    background-image: url(/assets/checkout.jpeg);
+    height: fit-content;
+    background-repeat: no-repeat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 20px;
+    font-family: 'Anybody', cursive;
+    font-size: 40px;
+}
+
+input {
+    font-size: 30px;
+}
+
+button {
+    font-family: 'Anybody', cursive;
+    font-size: 30px;
+    border: 0px;
+    margin: 10px;
+}
+
+h1, ul {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Anybody', cursive;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 225, 187, 0.587);
+    align-items: center;
+    height: 100vh;
+    width: 98vw;
+}
+
+.complete {
+    text-decoration: line-through;
+    font-size: 30px;
+    color: red;
+}
+
+#shopping-list {
+    font-size: 35px;
+    font-family: 'Anybody', cursive;
+}
+
+.item-sec h1 {
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-form {
+    margin-right: 60px;
+}
+
+.item-sec {
+    margin-left: 60px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+

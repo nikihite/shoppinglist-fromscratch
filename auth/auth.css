@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody&family=Bebas+Neue&display=swap');
+body {
+    font-family: 'Anybody', cursive;
+    background-image: url(/assets/smiling.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: calc(var(--footer-height));
+}
+
+.gutter-right {
+    margin-right: 20px;
+}
+
+@keyframes pulse {
+    20% {
+    transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
+    }
+
+    40% {
+        transform: rotate3d(10, 10, -10, 50deg) scale(1);
+    }
+
+    60% {
+        transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
+    }
+
+    80% {
+        transform: rotate3d(10, 10, 10, 50deg) scale(1);
+    }
+
+}
+
+#logout {
+    position: fixed;
+    right: 20px;
+    top: 90px;
+}
+
+.auth-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 225, 187, 0.596);
+    align-items: center;
+    height: 110vh;
+    width: 80vw;
+}
+
+.auth-container {
+    margin: 10px;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-container button {
+    margin: 10px;
+    font-size: 25px;
+}
+
+label, h3, p {
+    text-align: center;
+}
+
+input {
+    font-size: 25px;
+    margin: 10px;
+}
+
+h3 {
+    font-size: 40px;
+}
+
+label {
+    font-size: 30px;
+    margin: 10px;
+}
+
+p {
+    margin-bottom: 0px;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+}
+
+.right {
+    margin-left: 50px;
+}
+
+.left {
+    margin-right: 50px;
+}
+
+button {
+    width: 100px;
+    border: 0px;
+}
+
+form {
+    align-items: center;
+}
