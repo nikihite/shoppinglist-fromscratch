@@ -31,6 +31,7 @@ button {
 h1, ul {
     text-align: center;
     margin-top: 40px;
+    font-family: 'Anybody', cursive;
 }
 
 main {
@@ -45,6 +46,39 @@ main {
 
 .complete {
     text-decoration: line-through;
-    font-size: 25px;
+    font-size: 30px;
     color: red;
+}
+
+#shopping-list {
+    font-size: 35px;
+    font-family: 'Anybody', cursive;
+}
+
+.item-sec h1 {
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+#form-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.item-form {
+    margin-right: 60px;
+}
+
+.item-sec {
+    margin-left: 60px;
+}
+
+h2 {
+    font-family: 'Anybody', cursive;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+h1 {
+    margin-bottom: 5px;
 }
