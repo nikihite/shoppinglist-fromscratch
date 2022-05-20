@@ -42,3 +42,9 @@ main {
     height: 100vh;
     width: 98vw;
 }
+
+.complete {
+    text-decoration: line-through;
+    font-size: 25px;
+    color: red;
+}

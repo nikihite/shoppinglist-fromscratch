@@ -26,19 +26,16 @@ logoutButton.addEventListener('click', () => {
 async function displayListItems() {
     shoppingListElem.textContent = '';
     const data = await fetchListItems();
-    if (data) {
-        for (let item of data) {
-            const listElem = renderItem(item);
-            listElem.addEventListener('click', async (e) => {
-                e.preventDefault();
-                await togglePurchased(item);
-                displayListItems();
-            });
+    console.log(data);
+    for (let item of data) {
+        const listElem = renderItem(item);
+        listElem.addEventListener('click', async (e) => {
+            e.preventDefault();
+            listElem.classList.toggle('complete');
+            await togglePurchased(item);
+        });
 
-            shoppingListElem.append(listElem);
-        }
-    } else {
-        error.textContent = 'Something went wrong :(';
+        shoppingListElem.append(listElem);
     }
 }
 
